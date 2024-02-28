@@ -33,6 +33,7 @@ const Notifications = () => {
      
 
     </TabPane>
+    
     <TabPane tab="Seen" key="1"  > 
     <div className='d-flex justify-content-end'  onClick={()=>{dispatch(deletnotificationseen())}} >
             <h1 className='linke'>Delete all</h1>
