@@ -9,7 +9,7 @@ import store from './redux/store';
 import axios from 'axios';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-axios.defaults.baseURL='http://127.0.0.1:8081/api'
+axios.defaults.baseURL='https://appointment-doctor-back-1.onrender.com/api'
 
 root.render(
   <Provider store={store}>
