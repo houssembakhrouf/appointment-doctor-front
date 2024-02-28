@@ -1,0 +1,209 @@
+.register{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(131, 199, 255);
+
+}
+.card{
+  box-shadow: 0 0 2px gray;
+}
+.parregister{
+  font-size: 12px;
+}
+.cardtitle{
+  background-color: rgb(131, 199, 255);
+  border-radius: 8px;
+}
+.primary-button{
+  height: 40px;
+  width: 100% !important;
+  background-color:rgb(131, 199, 255) ;
+  border-color:rgb(131, 199, 255);
+  color:white;
+  font-size:16px;
+  width:max-content !important
+
+
+}
+.linke{
+  color: black;
+  text-decoration: underline;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.linke :hover{
+  text-decoration: underline !important;
+}
+
+.spinner-parent{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  opacity:0.5;
+  background-color:rgb(0,0,0,0.4%);
+  position:fixed;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  z-index:9999;
+
+}
+
+.spinner-border{
+  width:3rem;
+  height: 3rem;
+ 
+}
+
+.man{
+  padding: 20px;
+}
+.layout{
+  display:flex
+}
+.main{
+  padding:20px;
+  height: 100vh;
+}
+
+.sidebar{
+  background-color:rgb(131, 199, 255) ;
+  border-radius:5px;
+  box-shadow:0 0 2px gray ;
+  margin-right:20px;
+  height:100vh ;
+  padding : 10px;
+
+ 
+}
+
+.content{
+  width: 100%;
+  height: 100%;
+}
+
+.header{
+  background-color:white;
+  border-radius:5px;
+  box-shadow:0 0 2px gray ;
+  margin-right:20px;
+  width:100%;
+  height: 10vh;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+
+}
+
+
+
+.body{
+  background-color:white;
+  border-radius:5px;
+  box-shadow:0 0 2px gray ;
+  margin-right:20px;
+  height:100% ;
+  width:100%;
+  padding:15px ;
+
+}
+.menu{
+  margin-top: 50px;
+  padding :0 20px
+}
+
+.menu-item{
+  margin-top:30px;
+  padding: 0 10px;
+}
+
+.menu-item a{
+  color: rgba(255, 255, 255, 0.586);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+.menu-item i{
+  color: rgba(255, 255, 255, 0.96);
+  text-decoration: none;
+  font-size: 20px;
+  margin:0 20px;
+}
+
+.active-menu-item{
+  color:white ;
+  background-color: rgb(58, 120, 213) ;
+  padding:5px;
+  border-radius:5px
+}
+
+.header-action-icon{
+  font-size:25px;
+  color:black;
+  cursor:pointer;
+  padding-left :10px;
+}
+.logo{
+  color:white;
+  font-weight:bold
+}
+
+.page-title{
+  font-size:30px;
+  color:black;
+  font-weight:bold;
+  margin-bottom: 20px;
+
+}
+
+.card-title{
+  font-size:1.5rem;
+  font-weight:bold;
+  margin-bottom: 20px;
+
+  
+}
+.badge{
+  padding-right:-10px !important;
+  padding-left:-10px !important
+}
+
+.cardnot{
+  box-shadow: 0 0 2px gray;
+  cursor:pointer;
+}
+
+.role{
+  color: white;
+  font-size: 14px;
+  margin-top: -5px;
+}
+p{
+  color:black !important;
+  margin:0 !important;
+  padding:0!important;
+}
+.cursor-pointer{
+  cursor :pointer
+}
+
+@media screen and (max-width : 760px ){
+  .menu{
+    padding :0 5px
+  }
+
+}
+
+
+
+
+
